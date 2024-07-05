@@ -83,6 +83,7 @@ function gpt() {
 
       const changeBackground = (index) => {
         const eles = ele[index];
+        // console.log(ele[1]);
         console.log(index);
         const bgImage = eles.getAttribute("data-img");
         const moves = move[index];
